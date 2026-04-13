@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, TouchableOpacity, Alert } from 'react-native';
 const CartaoPerfil = ({ nome, profissao, cidade, email }) => {
 
   const handlePress = () => {
-    Alert.alert("Ação", `E-mail enviado para: ${email}`);
+    alert(`E-mail enviado para: ${email}`);
   };
 
   return (
